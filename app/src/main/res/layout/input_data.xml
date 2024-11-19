@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <EditText
+        android:id="@+id/eday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter day "
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/emorning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Morning run kms"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/eafternoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Afternoon kms"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Date"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/clearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear data"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/showbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display data"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+</LinearLayout>
